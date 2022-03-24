@@ -13,6 +13,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     options.UseInMemoryDatabase("videogamedb");
 });
+builder.Services.AddScoped<IGameService, GameService>();
 
 var app = builder.Build();
 

@@ -19,7 +19,7 @@ public class ApplicationDbContext : DbContext
             },
             new Game
             {
-                Id = 1,
+                Id = 2,
                 Name = "Day of the Tentacle",
                 Developer = "Lucas Arts",
                 Release = new DateOnly(1993, 5, 25)
