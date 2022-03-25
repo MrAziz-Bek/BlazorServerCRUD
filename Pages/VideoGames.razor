@@ -1,5 +1,6 @@
 @page "/videogames"
 @inject IGameService GameService
+@inject NavigationManager NavigationManager
 
 <table class="table">
     <thead>
@@ -7,6 +8,7 @@
             <th>Name</th>
             <th>Developer</th>
             <th>Release</th>
+            <th></th>
         </tr>
     </thead>
     <tbody>
@@ -16,14 +18,28 @@
                 <td>@game.Name</td>
                 <td>@game.Developer</td>
                 <td>@game.Release?.ToString("MMM dd, yyyy")</td>
+                <td>
+                    <button class="btn btn-info" @onclick="(() => ShowGame(game.Id))"><i class="oi oi-pencil"></i></button>
+                </td>
             </tr>
         }
     </tbody>
 </table>
+<button class="btn btn-primary" @onclick="CreateNewGame">Create New Game</button>
 
 @code {
     protected override async Task OnInitializedAsync()
     {
         await GameService.LoadGames();
+    }
+
+    private void ShowGame(int id)
+    {
+        NavigationManager.NavigateTo($"/videogame/{id}");
+    }
+
+    private void CreateNewGame()
+    {
+        NavigationManager.NavigateTo($"/videogame");
     }
 }

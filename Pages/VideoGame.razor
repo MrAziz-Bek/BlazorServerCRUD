@@ -8,14 +8,43 @@
 }
 else
 {
-    <h3>Edit @game.Name</h3>
+    <h3>Edit "@game.Name"</h3>
 }
+
+<EditForm Model="@game" OnValidSubmit="HandleSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+    <div class="form-group">
+        <label for="name">Name</label>
+        <InputText id="name" @bind-Value="game.Name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="developer">Developer</label>
+        <InputText id="developer" @bind-Value="game.Developer" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="release">Release</label>
+        <InputDate id="release" @bind-Value="game.Release" class="form-control" />
+    </div>
+    <br />
+    <button class="btn btn-outline-success" type="submit">@btnText</button>
+    @if(Id is not null)
+    {
+        <button class="btn btn-outline-danger" type="button" @onclick="DeleteGame">Delete Game</button>
+    }
+</EditForm>
+
 
 @code {
     [Parameter]
     public int? Id { get; set; }
-
+    private string btnText = string.Empty;
     private Game game = new Game();
+
+    protected override void OnInitialized()
+    {
+        btnText = Id is null ? "Save New Game" : "Update Game";
+    }
 
     protected override async Task OnParametersSetAsync()
     {
@@ -23,5 +52,22 @@ else
         {
             game = await GameService.GetSingleGame(Id.Value);
         }
+    }
+
+    private async Task HandleSubmit()
+    {
+        if (Id is null)
+        {
+            await GameService.CreateGame(game);
+        }
+        else
+        {
+            await GameService.UpdateGame(game, Id.Value);
+        }
+    }
+
+    private async Task DeleteGame()
+    {
+        await GameService.DeleteGame(game.Id);
     }
 }

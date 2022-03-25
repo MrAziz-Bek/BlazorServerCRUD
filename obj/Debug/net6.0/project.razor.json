@@ -111,39 +111,6 @@
         }
       },
       {
-        "HashCode": 169269741,
-        "Kind": "Components.Component",
-        "Name": "BlazorServerCRUD.Pages.VideoGames",
-        "AssemblyName": "BlazorServerCRUD",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "VideoGames"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorServerCRUD.Pages.VideoGames"
-        }
-      },
-      {
-        "HashCode": 460445487,
-        "Kind": "Components.Component",
-        "Name": "BlazorServerCRUD.Pages.VideoGames",
-        "AssemblyName": "BlazorServerCRUD",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorServerCRUD.Pages.VideoGames"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorServerCRUD.Pages.VideoGames",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -1759261932,
         "Kind": "Components.Component",
         "Name": "BlazorServerCRUD.Pages.VideoGame",
@@ -193,6 +160,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "BlazorServerCRUD.Pages.VideoGame",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 169269741,
+        "Kind": "Components.Component",
+        "Name": "BlazorServerCRUD.Pages.VideoGames",
+        "AssemblyName": "BlazorServerCRUD",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "VideoGames"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorServerCRUD.Pages.VideoGames"
+        }
+      },
+      {
+        "HashCode": 460445487,
+        "Kind": "Components.Component",
+        "Name": "BlazorServerCRUD.Pages.VideoGames",
+        "AssemblyName": "BlazorServerCRUD",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorServerCRUD.Pages.VideoGames"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorServerCRUD.Pages.VideoGames",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
