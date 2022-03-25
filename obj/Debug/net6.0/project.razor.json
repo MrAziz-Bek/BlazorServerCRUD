@@ -12,72 +12,6 @@
   "ProjectWorkspaceState": {
     "TagHelpers": [
       {
-        "HashCode": 169269741,
-        "Kind": "Components.Component",
-        "Name": "BlazorServerCRUD.Pages.VideoGames",
-        "AssemblyName": "BlazorServerCRUD",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "VideoGames"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorServerCRUD.Pages.VideoGames"
-        }
-      },
-      {
-        "HashCode": 460445487,
-        "Kind": "Components.Component",
-        "Name": "BlazorServerCRUD.Pages.VideoGames",
-        "AssemblyName": "BlazorServerCRUD",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorServerCRUD.Pages.VideoGames"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorServerCRUD.Pages.VideoGames",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1226123046,
-        "Kind": "Components.Component",
-        "Name": "BlazorServerCRUD.Pages.Index",
-        "AssemblyName": "BlazorServerCRUD",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorServerCRUD.Pages.Index"
-        }
-      },
-      {
-        "HashCode": 1083673294,
-        "Kind": "Components.Component",
-        "Name": "BlazorServerCRUD.Pages.Index",
-        "AssemblyName": "BlazorServerCRUD",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "BlazorServerCRUD.Pages.Index"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorServerCRUD.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": -2055120527,
         "Kind": "Components.Component",
         "Name": "BlazorServerCRUD.Pages.Counter",
@@ -144,35 +78,154 @@
         }
       },
       {
-        "HashCode": 1620033024,
+        "HashCode": -1226123046,
         "Kind": "Components.Component",
-        "Name": "BlazorServerCRUD.Shared.NavMenu",
+        "Name": "BlazorServerCRUD.Pages.Index",
         "AssemblyName": "BlazorServerCRUD",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "NavMenu"
+            "TagName": "Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorServerCRUD.Shared.NavMenu"
+          "Common.TypeName": "BlazorServerCRUD.Pages.Index"
         }
       },
       {
-        "HashCode": -1926931431,
+        "HashCode": 1083673294,
         "Kind": "Components.Component",
-        "Name": "BlazorServerCRUD.Shared.NavMenu",
+        "Name": "BlazorServerCRUD.Pages.Index",
         "AssemblyName": "BlazorServerCRUD",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorServerCRUD.Shared.NavMenu"
+            "TagName": "BlazorServerCRUD.Pages.Index"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorServerCRUD.Shared.NavMenu",
+          "Common.TypeName": "BlazorServerCRUD.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 169269741,
+        "Kind": "Components.Component",
+        "Name": "BlazorServerCRUD.Pages.VideoGames",
+        "AssemblyName": "BlazorServerCRUD",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "VideoGames"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorServerCRUD.Pages.VideoGames"
+        }
+      },
+      {
+        "HashCode": 460445487,
+        "Kind": "Components.Component",
+        "Name": "BlazorServerCRUD.Pages.VideoGames",
+        "AssemblyName": "BlazorServerCRUD",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorServerCRUD.Pages.VideoGames"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorServerCRUD.Pages.VideoGames",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -1759261932,
+        "Kind": "Components.Component",
+        "Name": "BlazorServerCRUD.Pages.VideoGame",
+        "AssemblyName": "BlazorServerCRUD",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "VideoGame"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorServerCRUD.Pages.VideoGame"
+        }
+      },
+      {
+        "HashCode": 1103012512,
+        "Kind": "Components.Component",
+        "Name": "BlazorServerCRUD.Pages.VideoGame",
+        "AssemblyName": "BlazorServerCRUD",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorServerCRUD.Pages.VideoGame"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Id",
+            "TypeName": "System.Int32?",
+            "Metadata": {
+              "Common.PropertyName": "Id"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorServerCRUD.Pages.VideoGame",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -488818112,
+        "Kind": "Components.Component",
+        "Name": "BlazorServerCRUD.App",
+        "AssemblyName": "BlazorServerCRUD",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorServerCRUD.App"
+        }
+      },
+      {
+        "HashCode": 1362636196,
+        "Kind": "Components.Component",
+        "Name": "BlazorServerCRUD.App",
+        "AssemblyName": "BlazorServerCRUD",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "BlazorServerCRUD.App"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "BlazorServerCRUD.App",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -326,35 +379,35 @@
         }
       },
       {
-        "HashCode": -488818112,
+        "HashCode": 1620033024,
         "Kind": "Components.Component",
-        "Name": "BlazorServerCRUD.App",
+        "Name": "BlazorServerCRUD.Shared.NavMenu",
         "AssemblyName": "BlazorServerCRUD",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "App"
+            "TagName": "NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorServerCRUD.App"
+          "Common.TypeName": "BlazorServerCRUD.Shared.NavMenu"
         }
       },
       {
-        "HashCode": 1362636196,
+        "HashCode": -1926931431,
         "Kind": "Components.Component",
-        "Name": "BlazorServerCRUD.App",
+        "Name": "BlazorServerCRUD.Shared.NavMenu",
         "AssemblyName": "BlazorServerCRUD",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "BlazorServerCRUD.App"
+            "TagName": "BlazorServerCRUD.Shared.NavMenu"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "BlazorServerCRUD.App",
+          "Common.TypeName": "BlazorServerCRUD.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -16697,6 +16750,11 @@
     {
       "FilePath": "/Users/azizbekboboyev/Developer/vscode/webproj/BlazorServerCRUD/Pages/Counter.razor",
       "TargetPath": "Pages\\Counter.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/Users/azizbekboboyev/Developer/vscode/webproj/BlazorServerCRUD/Pages/VideoGame.razor",
+      "TargetPath": "Pages\\VideoGame.razor",
       "FileKind": "component"
     },
     {
